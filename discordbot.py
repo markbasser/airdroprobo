@@ -53,21 +53,49 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('Please listen for a long time:robot:　HELLO! Airdrop method is dice:game_die:! The specified command will randomly output a number from 0 to 100. \n The number depends on the number. \n :airplane: The Airdrop award is the establishment of 4/100 of [0.1.77.100]:star2:. The mini Drop awards are [2-76 and 90-99]. \n Unfortunately, the number is 60-89 :star2:, which is the 77th number. Remember! \n Most of them are winning. When the BOT balance is exhausted. Then. Well. \n Yes. that"s all. Did you understand?:')
 
-    if now == '03:37':
+    if now == '02:41':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: ゲームは簡単でサイコロ:game_die:振るだけ！エアドロップCommandは【!】から始まります。半角英数小文字でさて何でしょう！？【!●●】`!??` \n ヒント①：BGPTは入りません。ヒント②エアドロップですよね。ならそのスペルに関係します。以上。\n 周りに教えずにCommand打てば削除して下さいね。残高なくなれば終了する予定です。\n UzurasWalletが使える部屋と使えない部屋があります。\n　回数制限もうけてないから適度な回数でおねがいします。テキドナカイスウデ...:robot:') 
     
-    if now == '03:38':
+    if now == '02:42':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: The game is easy, just roll the dice:game_die:! Air Drop Command starts with [!]. What is it in half-width English letters? ? 【!●●】`!??` \n Tip ①: BGPT cannot be entered. Tip ② It"s an air drop. Is related to the spell. that"s all. \n Please delete it by typing Command without telling others. It will end when the balance is exhausted. \n Some rooms can use Uzuras Wallet and some cannot.　Since there is no limit on the number of times, please give me an appropriate number of times..... :robot:')  
 
-    if now == '03:39':
+    if now == '02:43':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot: ◆ :game_die: :robot: コマンドはこちらでお願いします↓For commands, please click here 　↓　\n  #╰🤖airdrop-robo🆕..:robot:') 
+    
+    if now == '02:55':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: あっ！言い忘れていました！ｺﾏﾝﾄﾞは途中で変わったりします。動いている時間も不特定です。私を見つけたらｺﾏﾝﾄﾞで呼び出して下さいね☆回数制限はありませんが、連続するとボロだから..ロボでした(〃艸〃)ﾑﾌｯ止まります。ゆっくりと迷惑かからないようにお願いします。:star2:') 
     
-    if now == '03:40':
+    if now == '07:25
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send(':robot:ah!I forgot! The command may change on the way. The time of movement is unspecified. If you find me, please call me with a command ☆ There is no limit on the number of times, but it will stop if you continue. Please do not be a nuisance slowly. I"m a bot It will break.:star2:')  
+        await channel.send(':robot:..:robot:..Please wait..:robot:\n/rain BGPT 7 ALL  :robot:') 
+    
+    if now == '07:26
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot:..:デハカイセツシマス/ Let me explain:robot:') 
+                           
+    if now == '07:27:
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot: ゲームは簡単でサイコロ:game_die:振るだけ！エアドロップCommandは【!】から始まります。半角英数小文字でさて何でしょう！？【!●●】`!??` \n ヒント①：BGPTは入りません。ヒント②エアドロップですよね。ならそのスペルに関係します。以上。\n 周りに教えずにCommand打てば削除して下さいね。残高なくなれば終了する予定です。\n UzurasWalletが使える部屋と使えない部屋があります。\n　回数制限もうけてないから適度な回数でおねがいします。テキドナカイスウデ...:robot:') 
+    
+    if now == '07:28:
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot: The game is easy, just roll the dice:game_die:! Air Drop Command starts with [!]. What is it in half-width English letters? ? 【!●●】`!??` \n Tip ①: BGPT cannot be entered. Tip ② It"s an air drop. Is related to the spell. that"s all. \n Please delete it by typing Command without telling others. It will end when the balance is exhausted. \n Some rooms can use Uzuras Wallet and some cannot.　Since there is no limit on the number of times, please give me an appropriate number of times.....:robot:') 
+
+    if now == '07:29':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot: ◆ :game_die: :robot: コマンドはこちらでお願いします↓For commands, please click here 　↓　\n  #╰🤖airdrop-robo🆕..:robot:') 
+    
+    if now == '07:35':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot: あっ！言い忘れていました！ｺﾏﾝﾄﾞは途中で変わったりします。動いている時間も不特定です。私を見つけたらｺﾏﾝﾄﾞで呼び出して下さいね☆回数制限はありませんが、連続するとボロだから..ロボでした(〃艸〃)ﾑﾌｯ止まります。ゆっくりと迷惑かからないようにお願いします。:star2:') 
+    
+    if now == '07:36':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot:..... \n/throw BGPT 70 7 EquallyDistributed  <:good01:699581068285706301> Play with BGPT Slot Games～:star2:')  
     
     if now == '10:55':
         channel = client.get_channel(CHANNEL_ID)
@@ -77,30 +105,44 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send('☆I"m Mini Airdrop-BOT‼ :robot: I am an Airdrop robot! The Airdrop method is programmed for appropriate comments. \ n Very easy! I don”t know when to comment. The CMD also changes. looking forward to:star2:')  
     
-    if now == '11:30':
+    if now == '11:10':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: Airdrop方法はダイスです！:game_die:\n 指定のコマンドで、0～100までの数字をランダムに出します。その数字によって当たりが違います。\n :airplane: Airdrop賞が【0.1.77.100番】の4/100の確立です。:star2:\n mini Drop賞が【2～76番と90～99番】です。残念が77番号を抜いた【60～89番】となっています。\n 覚えていてね！とてもほとんどが当たりです。\n BOT残高がなくなったら　お。し。ま。い。以上です。下手な説明わかりましたか？:star2:')  
 
-    if now == '11:31':
+    if now == '11:11':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot:Airdrop method is dice game! :game_die:　\n The specified command will randomly output a number from 0 to 100. \n The number depends on the number. \n :airplane: The Airdrop award is the establishment of 4/100 of [0.1.77.100] :star2:. The mini Drop awards are [2-76 and 90-99]. \n Unfortunately, the number is 60-89, which is the 77th number. Remember! \n Most of them are winning. When the BOT balance is exhausted. Then. Well. \n Yes. that"s all. Did you understand?:star2:')
 
-    if now == '11:32':
+    if now == '11:12':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: あっ！言い忘れていました！ｺﾏﾝﾄﾞは途中で変わったりします。動いている時間も不特定です。私を見つけたらｺﾏﾝﾄﾞで呼び出して下さいね☆回数制限はありませんが、連続するとボロだから..ロボでした(〃艸〃)ﾑﾌｯ止まります。ゆっくりと迷惑かからないようにお願いします。:star2:') 
     
-    if now == '11:33':
+    if now == '11:13':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot:ah!I forgot! The command may change on the way. The time of movement is unspecified. If you find me, please call me with a command ☆ There is no limit on the number of times, but it will stop if you continue. Please do not be a nuisance slowly. I"m a bot It will break.:star2:')  
   
-    if now == '11:45':
+    if now == '11:25
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot:..:robot:..Please wait..:robot:\n/rain BGPT 7 ALL  :robot:') 
+    
+    if now == '11:25
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot:..:デハカイセツシマス/ Let me explain:robot:') 
+                           
+    if now == '11:26:
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: ゲームは簡単でサイコロ:game_die:振るだけ！エアドロップCommandは【!】から始まります。半角英数小文字でさて何でしょう！？【!●●】`!??` \n ヒント①：BGPTは入りません。ヒント②エアドロップですよね。ならそのスペルに関係します。以上。\n 周りに教えずにCommand打てば削除して下さいね。残高なくなれば終了する予定です。\n UzurasWalletが使える部屋と使えない部屋があります。\n　回数制限もうけてないから適度な回数でおねがいします。テキドナカイスウデ...:robot:') 
     
-    if now == '11:46':
+    if now == '11:27:
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: The game is easy, just roll the dice:game_die:! Air Drop Command starts with [!]. What is it in half-width English letters? ? 【!●●】`!??` \n Tip ①: BGPT cannot be entered. Tip ② It"s an air drop. Is related to the spell. that"s all. \n Please delete it by typing Command without telling others. It will end when the balance is exhausted. \n Some rooms can use Uzuras Wallet and some cannot.　Since there is no limit on the number of times, please give me an appropriate number of times.....:robot:') 
 
+    if now == '11:47':
+        channel = client.get_channel(CHANNEL_ID)
+        await channel.send(':robot: ◆ :game_die: :robot: コマンドはこちらでお願いします↓For commands, please click here 　↓\n  #╰🤖airdrop-robo🆕..:robot:') 
+    
+   
+        
 
    #ループ処理実行
 loop.start()
