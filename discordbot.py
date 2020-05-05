@@ -69,19 +69,19 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: あっ！言い忘れていました！ｺﾏﾝﾄﾞは途中で変わったりします。動いている時間も不特定です。私を見つけたらｺﾏﾝﾄﾞで呼び出して下さいね☆回数制限はありませんが、連続するとボロだから..ロボでした(〃艸〃)ﾑﾌｯ止まります。ゆっくりと迷惑かからないようにお願いします。:star2:') 
     
-    if now == '07:25
+    if now == '07:25':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot:..:robot:..Please wait..:robot:\n/rain BGPT 7 ALL  :robot:') 
     
-    if now == '07:26
+    if now == '07:26':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot:..:デハカイセツシマス/ Let me explain:robot:') 
                            
-    if now == '07:27:
+    if now == '07:27':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: ゲームは簡単でサイコロ:game_die:振るだけ！エアドロップCommandは【!】から始まります。半角英数小文字でさて何でしょう！？【!●●】`!??` \n ヒント①：BGPTは入りません。ヒント②エアドロップですよね。ならそのスペルに関係します。以上。\n 周りに教えずにCommand打てば削除して下さいね。残高なくなれば終了する予定です。\n UzurasWalletが使える部屋と使えない部屋があります。\n　回数制限もうけてないから適度な回数でおねがいします。テキドナカイスウデ...:robot:') 
     
-    if now == '07:28:
+    if now == '07:28':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: The game is easy, just roll the dice:game_die:! Air Drop Command starts with [!]. What is it in half-width English letters? ? 【!●●】`!??` \n Tip ①: BGPT cannot be entered. Tip ② It"s an air drop. Is related to the spell. that"s all. \n Please delete it by typing Command without telling others. It will end when the balance is exhausted. \n Some rooms can use Uzuras Wallet and some cannot.　Since there is no limit on the number of times, please give me an appropriate number of times.....:robot:') 
 
@@ -121,19 +121,19 @@ async def loop():
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot:ah!I forgot! The command may change on the way. The time of movement is unspecified. If you find me, please call me with a command ☆ There is no limit on the number of times, but it will stop if you continue. Please do not be a nuisance slowly. I"m a bot It will break.:star2:')  
   
-    if now == '11:25
+    if now == '11:24':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot:..:robot:..Please wait..:robot:\n/rain BGPT 7 ALL  :robot:') 
     
-    if now == '11:25
+    if now == '11:25':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot:..:デハカイセツシマス/ Let me explain:robot:') 
                            
-    if now == '11:26:
+    if now == '11:26':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: ゲームは簡単でサイコロ:game_die:振るだけ！エアドロップCommandは【!】から始まります。半角英数小文字でさて何でしょう！？【!●●】`!??` \n ヒント①：BGPTは入りません。ヒント②エアドロップですよね。ならそのスペルに関係します。以上。\n 周りに教えずにCommand打てば削除して下さいね。残高なくなれば終了する予定です。\n UzurasWalletが使える部屋と使えない部屋があります。\n　回数制限もうけてないから適度な回数でおねがいします。テキドナカイスウデ...:robot:') 
     
-    if now == '11:27:
+    if now == '11:27':
         channel = client.get_channel(CHANNEL_ID)
         await channel.send(':robot: The game is easy, just roll the dice:game_die:! Air Drop Command starts with [!]. What is it in half-width English letters? ? 【!●●】`!??` \n Tip ①: BGPT cannot be entered. Tip ② It"s an air drop. Is related to the spell. that"s all. \n Please delete it by typing Command without telling others. It will end when the balance is exhausted. \n Some rooms can use Uzuras Wallet and some cannot.　Since there is no limit on the number of times, please give me an appropriate number of times.....:robot:') 
 
