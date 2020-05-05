@@ -218,7 +218,7 @@ async def on_message(message):
           await message.channel.send(f"\n:pinching_hand:～:game_die:  _(Dice60-76)_ \n\n∽∽∽∽∽∽∽∽∽∽∽∽∽∽\n→mini drop:candy: \n∽∽∽∽∽∽∽∽∽∽∽∽∽∽\n\n/tip BGPT 7.7777 {message.author.mention}  <:BGPTpink:705616860955148310>")
           
      elif 76 < m < 78: #77～77
-          q = await message.channel.send(f"\n:point_right:～:game_die:  _(Dice**77** )_ \n\n୨୧┈┈┈┈┈┈┈┈┈୨୧\n :balloon:**Jackpot!**\n\n\n:partying_face:tada: \n୨୧┈┈┈┈┈┈┈┈┈୨୧\n\n/tip BGPT 3777.77 {message.author.mention}  <:BGPT02:698471366004965406> ")
+          q = await message.channel.send(f"\n:point_right:～:game_die:  _(Dice**77** )_ \n\n୨୧┈┈┈┈┈┈┈┈┈୨୧\n :balloon:**Jackpot!**\n:partying_face::tada:**Airdrop**:balloon::rocket:\n୨୧┈┈┈┈┈┈┈┈┈୨୧\n\n/tip BGPT 3777.77 {message.author.mention}  <:BGPT02:698471366004965406> ")
           [await q.add_reaction(i) for i in ('<:good01:699581068285706301>', '<:BGPT02:698471366004965406>')] # for文の内包表記
 
      elif 77 < m < 90: #78～89
