@@ -59,8 +59,7 @@ async def loop():
     
     if now == '03:38':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send(':robot: The game is easy, just roll the dice:game_die:! Air Drop Command starts with [!]. What is it in half-width English letters? ? 【!●●】`!??` \n Tip ①: BGPT cannot be entered. Tip ② It"s an air drop. Is related to the spell. that"s all. \n Please delete it by typing Command without telling others. It will end when the balance is exhausted. \n Some rooms can use Uzuras Wallet and some cannot.　Since there is no limit on the number of times, please give me an appropriate number of times.....
-                         :robot:')  
+        await channel.send(':robot: The game is easy, just roll the dice:game_die:! Air Drop Command starts with [!]. What is it in half-width English letters? ? 【!●●】`!??` \n Tip ①: BGPT cannot be entered. Tip ② It"s an air drop. Is related to the spell. that"s all. \n Please delete it by typing Command without telling others. It will end when the balance is exhausted. \n Some rooms can use Uzuras Wallet and some cannot.　Since there is no limit on the number of times, please give me an appropriate number of times..... :robot:')  
 
     if now == '03:39':
         channel = client.get_channel(CHANNEL_ID)
@@ -100,8 +99,7 @@ async def loop():
     
     if now == '11:46':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send(':robot: The game is easy, just roll the dice:game_die:! Air Drop Command starts with [!]. What is it in half-width English letters? ? 【!●●】`!??` \n Tip ①: BGPT cannot be entered. Tip ② It"s an air drop. Is related to the spell. that"s all. \n Please delete it by typing Command without telling others. It will end when the balance is exhausted. \n Some rooms can use Uzuras Wallet and some cannot.　Since there is no limit on the number of times, please give me an appropriate number of times.....
-                         :robot:') 
+        await channel.send(':robot: The game is easy, just roll the dice:game_die:! Air Drop Command starts with [!]. What is it in half-width English letters? ? 【!●●】`!??` \n Tip ①: BGPT cannot be entered. Tip ② It"s an air drop. Is related to the spell. that"s all. \n Please delete it by typing Command without telling others. It will end when the balance is exhausted. \n Some rooms can use Uzuras Wallet and some cannot.　Since there is no limit on the number of times, please give me an appropriate number of times.....:robot:') 
 
 
    #ループ処理実行
