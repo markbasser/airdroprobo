@@ -43,7 +43,7 @@ async def loop():
     
     if now == '02:11':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send('Say again.hehe ☆I"m Mini Airdrop-BOT‼ :robot: I am an Airdrop robot! The Airdrop method is programmed for appropriate comments. \ n Very easy! I don”t know when to comment. The CMD also changes. looking forward to☆ \n @everyone :airplane:')  
+        await channel.send('Say again.hehe ☆I"m Mini Airdrop-BOT‼ :robot: I am an Airdrop robot! The Airdrop method is programmed for appropriate comments. \n Very easy! I don”t know when to comment. The CMD also changes. looking forward to☆ \n @everyone :airplane:')  
     
     if now == '02:30':
         channel = client.get_channel(CHANNEL_ID)
@@ -271,7 +271,7 @@ async def on_message(message):
           await message.channel.send(f"\n:point_right:～:game_die:  _(Dice90-99)_ \n\n∴‥∵‥∴‥∵‥∴‥∴‥∵‥∴\n→mini drop:candy: \n∴‥∵‥∴‥∵‥∴‥∴‥∵‥∴\n\n/tip BGPT 22.2222 {message.author.mention}  <:BGPTpink:705616860955148310>")
             
      else: #それ以外なので今回の場合100が出た時に処理される
-          q = await message.channel.send(f"\n:point_right:～:game_die:  _(Dice**100**)_ \n\n୨୧┈┈┈┈┈┈┈┈┈୨୧\n:partying_face::tada: **Airdrop!** :rocket: \n୨୧┈┈┈┈┈┈┈┈┈୨୧\n\n/tip BGPT 2345.6789 {message.author.mention}  <:BGPT02:698471366004965406> ")
+          q = await message.channel.send(f"\n:point_right:～:game_die:  _(Dice**0 or 100**)_ \n\n୨୧┈┈┈┈┈┈┈┈┈୨୧\n:partying_face::tada: **Airdrop!** :rocket: \n୨୧┈┈┈┈┈┈┈┈┈୨୧\n\n/tip BGPT 2345.6789 {message.author.mention}  <:BGPT02:698471366004965406> ")
           [await q.add_reaction(i) for i in ('<:good01:699581068285706301>', '<:BGPT02:698471366004965406>')] # for文の内包表記
 
 
