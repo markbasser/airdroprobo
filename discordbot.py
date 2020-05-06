@@ -63,7 +63,7 @@ async def loop():
 
     if now == '02:43':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send(':robot: ◆ :game_die: :robot: コマンドはこちらでお願いします↓For commands, please click here 　↓　\n  #╰🤖airdrop-robo🆕..:robot:') 
+        await channel.send(':robot: ◆ :game_die: :robot: コマンドは↓ここのRainRoomじゃなく下のこちらの部屋でお願いします↓For commands, please click here 　↓　\n  #╰🤖airdrop-robo🆕..この部屋でお願いします。I would like the command in this room :robot:') 
     
     if now == '02:55':
         channel = client.get_channel(CHANNEL_ID)
@@ -87,7 +87,7 @@ async def loop():
 
     if now == '07:29':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send(':robot: ◆ :game_die: :robot: コマンドはこちらでお願いします↓For commands, please click here 　↓　\n  #╰🤖airdrop-robo🆕..:robot:') 
+        await channel.send(':robot: ◆ :game_die: :robot: コマンドは↓レインルームじゃなく↓こちらでお願いします↓For commands, please click here 　↓　\n  #╰🤖airdrop-robo🆕..cmd I would like the command in this room :robot:') 
     
     if now == '07:35':
         channel = client.get_channel(CHANNEL_ID)
@@ -139,7 +139,7 @@ async def loop():
 
     if now == '11:47':
         channel = client.get_channel(CHANNEL_ID)
-        await channel.send(':robot: ◆ :game_die: :robot: コマンドはこちらでお願いします↓For commands, please click here 　↓\n  #╰🤖airdrop-robo🆕..:robot:') 
+        await channel.send(':robot: ◆ :game_die: :robot: ↓コマンドはこちらでお願いします↓For commands, please click here 　↓\n  #╰🤖airdrop-robo🆕..:robot:') 
     
    
         
