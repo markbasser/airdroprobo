@@ -559,15 +559,15 @@ async def on_message(message):
           [await q.add_reaction(i) for i in ('<:kanngaeru:699072662382837881>', '<:kenj:700136543003607101>')] # for文の内包表記
 
      elif 96 < m < 98: #97
-          q = await message.channel.send(f"\n:pinching_hand:roll～:game_die:  _(Dice→)_ :nine::seven: \n\n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n→mini drop:candy: \n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n\n/tip BEN 9.7 {message.author.mention}   <:benkeicoinsl:698471387064696833> ")
+          q = await message.channel.send(f"\n:pinching_hand:roll～:game_die:  _(Dice→)_ :nine::seven: \n\n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n→mini drop:candy: \n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n\n/tip BEN 0.97 {message.author.mention}   <:benkeicoinsl:698471387064696833> ")
           [await q.add_reaction(i) for i in ('<:good01:699581068285706301>', '<:benkeicoinsl:698471387064696833>')] # for文の内包表記
 
      elif 97 < m < 99: #98
-          q = await message.channel.send(f"\n:pinching_hand:roll～:game_die:  _(Dice→)_ :nine::eight: \n\n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n→mini drop:candy: \n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n\n/tip BEN 9.8 {message.author.mention}   <:benkeicoinsl:698471387064696833> ")
+          q = await message.channel.send(f"\n:pinching_hand:roll～:game_die:  _(Dice→)_ :nine::eight: \n\n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n→mini drop:candy: \n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n\n/tip BEN 0.98 {message.author.mention}   <:benkeicoinsl:698471387064696833> ")
           [await q.add_reaction(i) for i in ('<:good01:699581068285706301>', '<:benkeicoinsl:698471387064696833>')] # for文の内包表記
 
      elif 98 < m < 100: #99
-          q = await message.channel.send(f"\n:pinching_hand:roll～:game_die:  _(Dice→)_ :nine::nine: \n\n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n→:balloon: Balloon drop:candy: :balloon: \n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n\n/tip BEN 99.9 {message.author.mention}   <:benkeicoinsl:698471387064696833>:balloon: ")
+          q = await message.channel.send(f"\n:pinching_hand:roll～:game_die:  _(Dice→)_ :nine::nine: \n\n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n→:balloon: Balloon drop:candy: :balloon: \n‥☆∵‥∴‥∵‥∴<:BENKEICOIN04:698471407650209832>∴‥∵‥∴‥∵☆‥\n\n/tip BEN 9.99 {message.author.mention}   <:benkeicoinsl:698471387064696833>:balloon: ")
           [await q.add_reaction(i) for i in ('<:good01:699581068285706301>', '<:benkeicoinsl:698471387064696833>')] # for文の内包表記
             
      else: #それ以外なので今回の場合100が出た時に処理される
