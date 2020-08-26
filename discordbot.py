@@ -575,6 +575,67 @@ async def on_message(message):
           [await q.add_reaction(i) for i in ('<:good01:699581068285706301>', '<:BGPT02:698471366004965406>')] # for文の内包表記
 
 
+        
+@client.event
+async def on_message(message):
+    """メッセージを処理"""
+    if message.author.bot:  # ボットのメッセージをハネる
+        return
+    
+    elif message.content == "r/link":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send("/link ")
+        [await q.add_reaction(i) for i in ('⭕', '❌')]  # for文の内包表記
+
+    elif message.content == "r/language":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /language EN ")
+        [await q.add_reaction(i) for i in ('⭕', '❌')]  # for文の内包表記
+              
+    elif message.content == "r/accept":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /accept ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
+
+    elif message.content == "b/benzan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info ben ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
+        
+    elif message.content == "b/jpynzan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info jpyn ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記      
+        
+    elif message.content == "b/bgptzan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info bgpt ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
+    
+    elif message.content == "b/kenjzan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info kenj ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記
+             
+    elif message.content == "b/sprtszan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info sprts ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記 
+
+    elif message.content == "b/29zan":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send(" /info 29coin ")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記 
+        
+    elif message.content == "b/rdeposit":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send("rdeposit")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記 
+        
+    elif message.content == "b/rbal":
+        # リアクションアイコンを付けたい
+        q = await message.channel.send("rbal")
+        [await q.add_reaction(i) for i in ('⭕', '🔑')]  # for文の内包表記 
 
 
 # Botの起動とDiscordサーバーへの接続
