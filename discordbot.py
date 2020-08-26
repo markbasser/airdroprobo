@@ -575,8 +575,6 @@ async def on_message(message):
           [await q.add_reaction(i) for i in ('<:good01:699581068285706301>', '<:BGPT02:698471366004965406>')] # for文の内包表記
 
 
-        
-@client.event
 async def on_message(message):
     """メッセージを処理"""
     if message.author.bot:  # ボットのメッセージをハネる
